@@ -1,3 +1,123 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url(../css/fonts/Rajdhani-Medium.ttf);
+}
+
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587D;
+    --red-color: #B11313;
+    --black-color: #0D0E09;
+    --color: rgba(237, 222, 191, 0.400) 40%rgba(25, 88, 125, 0.400) 40%;
+    --color: rgba(237, 222, 191, 0.400) 40% rgba(137, 0, 30, 0.600) 60%;
+    --: #C4C4C4;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titre {
+    font-family: 'rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 body {
-    background-color: red;
+    background-color: black;
+    color: white;
+    font-family: 'Space-Grotesk';
+    font-weight: 300;
+}
+
+
+/* design de la navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav ul a {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "rajdhani";
+}
+
+nav ul a:hover {
+    color: yellow
+}
+
+
+/*  design de la section hero  */
+
+#hero {
+    background-image: url(../Assets/Illustrations/Bathome1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #19587D;
+}
+
+
+/* design de la section batman au cinéma*/
+
+.text {
+    font-family: 'SpaceGtotesk-regular';
+    font-size: 18px;
+    font-weight: 300;
+    padding: 30px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.batman-actors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.personnages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.partenaires {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.h2 {
+    font-family: 'SpaceGrotesk-bold';
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 30px;
 }
