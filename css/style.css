@@ -22,16 +22,24 @@
     box-sizing: border-box;
 }
 
-.titre {
+.h1 {
     font-family: 'rajdhani';
     font-size: 36px;
     font-weight: 400;
 }
 
-button {
+.CTA a {
     font-family: 'rajdhani';
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
+    text-decoration: none;
+    background-position: top center;
+    background-color: rgba(255, 255, 255, 0.400);
+    color: white;
+}
+
+.CTA a {
+    background-image: linear-gradient(rgba(237, 222, 191, 0.400) 40%rgba(25, 88, 125, 0.400))
 }
 
 .container {
@@ -44,6 +52,27 @@ body {
     color: white;
     font-family: 'Space-Grotesk';
     font-weight: 300;
+}
+
+.text {
+    font-family: 'SpaceGrotesk-bold';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.bat {
+    font-family: 'SpaceGrotesk-bold';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.major {
+    font-family: 'SpaceGrotesk-bold';
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
 }
 
 
@@ -81,37 +110,18 @@ nav ul a:hover {
 
 /* design de la section batman au cinéma*/
 
-.text {
-    font-family: 'SpaceGtotesk-regular';
-    font-size: 18px;
-    font-weight: 300;
-    padding: 30px;
-    text-align: justify;
-    margin: 0 auto;
-}
-
-.batman-actors {
+.card {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px;
+    margin-top: 70px;
 }
 
-.personnages {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px;
+.card img {
+    border-radius: 12px;
 }
 
-.partenaires {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 30px;
+.card img:hover {
+    transform: scale(1.2);
 }
 
 .h2 {
