@@ -41,9 +41,13 @@
     box-shadow: var(--black-color) 15px 15px 60px;
 }
 
+.btn:hover {
+    filter: invert(96%) sepia(89%) saturate(796%) hue-rotate(279deg)brightness(95%) contrast(109%);
+}
+
 .container {
     width: 90%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body {
@@ -64,7 +68,7 @@ nav {
 }
 
 nav ul a {
-    color: white;
+    color: gray;
     font-size: 30px;
     font-weight: 500;
     font-family: "rajdhani";
@@ -113,6 +117,14 @@ nav ul a:hover {
     margin-top: 15px;
 }
 
+.scroll:hover {
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
+}
+
+.jeans:hover {
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
+}
+
 .container.alliés.bad.img {
     position: absolute;
     top: 0;
@@ -151,7 +163,7 @@ nav ul a:hover {
 
 section {
     width: 90%;
-    margin-top: 60px
+    margin-top: 40px
 }
 
 .description {
@@ -181,7 +193,7 @@ section {
 }
 
 .slider.img {
-    width: 100%;
+    width: ;
 }
 
 .slider-tag {
@@ -223,10 +235,12 @@ section {
 
 .form {
     background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-blue));
-    width: 120%;
     text-align: justify;
+    width: 150%;
     height: 550px;
     padding-left: 30%;
+    margin: 0 auto;
+    border: none;
 }
 
 .checkbox {
@@ -365,4 +379,28 @@ section {
 
 .picture {
     padding: 10px;
+}
+
+.pain,
+.war,
+.shine {
+    border: 3px solid #BCBBBD;
+    top: 132px;
+    position: relative;
+    width: 90%;
+    left: 102px;
+    right: 102px;
+}
+
+.shine {
+    border-top: none;
+}
+
+.war {
+    border-bottom: none;
+}
+
+.form {
+    border-left: none;
+    border-right: none;
 }
