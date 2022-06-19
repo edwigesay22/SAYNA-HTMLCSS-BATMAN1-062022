@@ -191,33 +191,36 @@
         </section>
         <!--la section formulaire-->
         <section id="contact ">
-            <div class="container ">
-                <div>
-                    <h2>PRENOMS CONTACT</h2>
-                    <form action=" ">
-                        <label for="email ">ADRESSE EMAIL</label>
-                        <input type="email " name="email " placeholder="email ">
-                        <label for="newsletter ">NEWSLETTER</label>
-                        <label for=" "> En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de 
-                        Batman :</label>
-                        <input type="checkbox ">
-                        <div>
-                            <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
-                            <span>
+            <div class="form">
+                <h2 class="maid">PRENOMS CONTACT</h2>
+                <form action=" ">
+                    <label class="titles" for="email ">ADRESSE EMAIL</label>
+                    <input class="mail" type="email " name="email " placeholder="Mon email ">
+                    <label class="titles" for="newsletter ">NEWSLETTER</label>
+                    <label for=" "> En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de 
+                     Batman:</label>
+                    <input class="checkbox" type="checkbox ">
+                    <div>
+                        <span>Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</span>
+                        <span class="icon">
         <img src="./Assets/Logos/icon_flèche_2.png " alt=" ">
     </span>
-                        </div>
-                        <div>
-                            <p class="text ">Souhaitez-vous recevoir des news</p>
-                        </div>
-                        <a href=" ">des films</a>
-                        <a href=" ">des Comics</a>
-                        <a href=" ">de tout</a>
-                        <p class="text ">MESSAGE</p>
-                        <textarea name=" " id=" " cols="30 " placeholder="Laissez un commentaire pour la communauté "></textarea>
-                        <input type="submit " value="CONFIRMER ">
-                    </form>
-                </div>
+                    </div>
+                    <div>
+                        <p class="news">Souhaitez-vous recevoir des news</p>
+                    </div>
+                    <div class="btn-group">
+                        <input type="radio" id="film">
+                        <label for="">Des films</label>
+                        <input type="radio" id="comics">
+                        <label for="">Des comics</label>
+                        <input type="radio" id="film">
+                        <label for="">De tout</label>
+                    </div>
+                    <p class="titles ">MESSAGE</p>
+                    <textarea name=" " id=" " cols="30 " placeholder="Laissez un commentaire pour la communauté "></textarea>
+                    <br> <input type="submit " value="CONFIRMER "><br/>
+                </form>
             </div>
         </section>
         <!--section citation-->
