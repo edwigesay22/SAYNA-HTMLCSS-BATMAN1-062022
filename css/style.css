@@ -224,13 +224,15 @@ section {
 .form {
     background: linear-gradient( 80deg, var(--gradient-white), var(--gradient-blue));
     width: 120%;
-    text-align: center;
-    height: 550px;
+    text-align: justify;
+    height: 510px;
+    padding-left: 30%;
 }
 
 .checkbox {
     width: 1%;
     height: 15px;
+    margin-bottom: 20px;
 }
 
 .mail {
@@ -250,10 +252,31 @@ section {
 .maid {
     font-size: 22px;
     margin-bottom: 32px;
-    text-align: center;
+    padding-left: 10%;
 }
 
 .titles {
     display: block;
     margin: 20px 0;
+}
+
+.icons {
+    transform: rotate(90deg);
+    width: 15px;
+    margin-bottom: -2px;
+}
+
+.news {
+    margin: 15px 0;
+    border-bottom: 2px solid darkgreen;
+    width: 35%;
+    text-align: justify;
+}
+
+.choice {
+    margin: 15px 0;
+    border-bottom: 2px solid darkgreen;
+    width: 45%;
+    text-align: justify;
+    padding-top: -15px;
 }
